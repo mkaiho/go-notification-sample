@@ -1,0 +1,6 @@
+{
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "beapp",
+  "workspaceFolder": "/go/src/github.com/mkaiho/go-notification-sample",
+  "extensions": ["golang.go"]
+}

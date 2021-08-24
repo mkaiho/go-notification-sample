@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  beapp:
+    build:
+      context: .
+      dockerfile: ./docker/beapp/Dockerfile
+    container_name: beapp
+    tty: true
+    volumes:
+      - .:/go/src/github.com/mkaiho/go-notification-sample
+    working_dir: /go/src/github.com/mkaiho/go-notification-sample
+    ports:
+      - 3000:3000
